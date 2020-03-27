@@ -21,7 +21,9 @@ class EmailAddressParser
   end
 
 
-
+#word = "Now is the,time for'all good people"
+#word.split(/[\s,']/)
+# => ["Now", "is", "the", "time", "for", "all", "good", "people"] 
   
 
 end
